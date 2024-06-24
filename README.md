@@ -40,6 +40,7 @@ FOREIGN KEY (origin_currency_id)
 REFERENCES moneda (currency_id));
 
 ## Poblacion de tablas Usuario
+### la contrasena de todos los usuarios es 123
 INSERT INTO usuario (nombre, correo_electronico, contrasenia, saldo)
 VALUES ('sofia', 'sofia@gmail.com', '$2a$10$ZceeNXNtFHtlDHYfl3Nchu0519FqPMnv8czXeSNPj5uJyFpW821vG', '5000000'),
 ('andres', 'andres@gmail.com', '$2a$10$ZceeNXNtFHtlDHYfl3Nchu0519FqPMnv8czXeSNPj5uJyFpW821vG', '2000000'),
